@@ -1,0 +1,42 @@
+body { 
+    background-color: pink;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+header {
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.gospel {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.quote {
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.up {
+    margin-top: -20px;
+}
+
+.h1-hover:hover {
+    color: black;
+}
