@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.profission-banner {
+    height: 54vh;
+    width: 100%;
+}
+
+.tree-images {
+    background-color: rgb(70, 70, 70);
+    height: 45.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tree-images img {
+    border: 20px solid rgb(51, 51, 51);
+    border-radius: 50%;
+    width: 25%;
+    height: 35vh;
+    margin: 0 1.5%
+}
