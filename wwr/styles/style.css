@@ -37,10 +37,6 @@
     text-align: center;
 }
 
-.mountains {
-    margin: 70px 0;
-}
-
 h2 {
     margin: 0;
 }
@@ -118,7 +114,6 @@ body {
 
 nav a {
     text-align: center;
-    background-color: #805767; 
     color: white;
     text-decoration: none;
     padding: 35px;
