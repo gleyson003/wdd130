@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #000000;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Permanent Marker";
+  --heading-font: "Permanent Marker", cursive;
   --paragraph-font: "Frank Ruhl Libre", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
