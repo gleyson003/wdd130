@@ -45,6 +45,7 @@
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    padding-bottom: 200px;
 }
 
 #logo_link {
@@ -212,13 +213,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: #805767;
-    color: black;
+    color: white;
     padding: 25px 50px;
-    margin-top: 200px;
 }
 
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -279,4 +279,60 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
+
+/* Page 2 - Rivers */
+
+.rivers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cab5b9;
+    height: 300%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.rivers-title h1{
+    text-align: center;
+    color: #000000;
+    font-family: Courgette, fantasy;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-title p{
+    text-align: center;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.rivers h3 {
+    font-size: 2vw;
+    color: #000000;
+}
+
+.idaho,
+.utah,
+.arizona {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.idaho img,
+.utah img,
+.arizona img {
+    width: 30%;
+    height: auto;
+}
+
+.idaho section,
+.utah section,
+.arizona section {
+    width: 70%; 
+    padding: 0 20px; 
+    font-size: 1.2vw;
+    text-align: left;
 }
