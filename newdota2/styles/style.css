@@ -46,7 +46,6 @@ nav a:hover {
 
 .home {
     display: grid;
-    grid-template-rows: 4;
     grid-template-columns: 2;
 }
 
@@ -89,9 +88,6 @@ body {
     margin-top: 50px;
     border-radius: 5px;
     margin-right: 75px;
-}
-
-.home-button-one button{
     background-color: #000000;
     color: #D19D0E;
     text-decoration: none;
@@ -100,8 +96,8 @@ body {
     border-radius: 5px;
 }
 
-.home-button-one button:hover {
-    background-color: #770303;
+.home-button-one:hover {
+    background-color: #A43312;
     color: white;
 }
 
@@ -109,9 +105,6 @@ body {
     grid-column: 2/3;
     margin-top: 50px;
     border-radius: 5px;
-}
-
-.home-button-two button{
     background-color: #000000;
     color: #D19D0E;
     text-decoration: none;
@@ -120,8 +113,8 @@ body {
     border-radius: 5px;
 }
 
-.home-button-two button:hover {
-    background-color: #770303;
+.home-button-two:hover {
+    background-color: #A43312;
     color: white;
 }
 
