@@ -66,6 +66,12 @@ body {
     margin-right: 20px;
 }
 
+.home-texts h2 {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: #770303;
+}
+
 .banner-box {
     grid-column: 1/3;
     grid-row: 1/3;
