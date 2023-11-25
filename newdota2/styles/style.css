@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Permanent+Marker&display=swap');
+
+/*Header*/
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+
+header img {
+    display: flex;
+    width: 57%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    color: #D19D0E;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2vw;
+}
+
+nav a:hover {
+    background-color: #770303;
+    color: white
+}
+
+
+/*Page one*/
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.home {
+    display: grid;
+    grid-template-rows: 4;
+    grid-template-columns: 2;
+}
+
+body {
+    background-color: white;
+    font-family: "Frank Ruhl Libre", sans-serif;;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid #000000
+}
+
+.home-texts {
+    grid-column: 1/3;
+    width: 98%;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner-box {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/3;
+    margin-top: 20px;
+}
+
+.home-button-one{
+    grid-column: 1/2;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-right: 75px;
+}
+
+.home-button-one button{
+    background-color: #000000;
+    color: #D19D0E;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.home-button-one button:hover {
+    background-color: #770303;
+    color: white;
+}
+
+.home-button-two{
+    grid-column: 2/3;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home-button-two button{
+    background-color: #000000;
+    color: #D19D0E;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.home-button-two button:hover {
+    background-color: #770303;
+    color: white;
+}
+
+.ancients-img{
+    display: flex;
+    grid-column: 1/3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #D19D0E;
+    padding: 25px 50px;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    color: #A43312;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #D19D0E;
+}
