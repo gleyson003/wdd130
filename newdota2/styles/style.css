@@ -46,12 +46,12 @@ nav a:hover {
 
 .home {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 body {
     background-color: white;
-    font-family: "Frank Ruhl Libre", sans-serif;;
+    font-family: "Frank Ruhl Libre", sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
