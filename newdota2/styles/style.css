@@ -263,16 +263,16 @@ h4 {
 
 .international-texts {
     grid-column: 1 / 3;
-    text-align: center;
-    margin: 0px 50px;
+    text-align: left;
+    margin: 50px 70px 0px 70px;
+
 }
 
 .medals-rank {
     display: flex;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: 20px;
-    width: 100%;
+    width: 90%;
 }
 
 /*Footer*/
